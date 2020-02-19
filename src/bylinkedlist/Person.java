@@ -20,6 +20,22 @@ public class Person {
         return contactNumber;
     }
 
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setContactNumber(ArrayList<Long> contactNumber) {
+        this.contactNumber = contactNumber;
+    }
+
+    public void setMailID(String mailID) {
+        this.mailID = mailID;
+    }
+
     public String getMailID() {
         return mailID;
     }
