@@ -8,5 +8,4 @@ public interface ADT<E> {
     Person search(String firstName);
 
     void print();
-
 }
