@@ -19,4 +19,8 @@ public class Node {
     public void setNext(Node next) {
         this.next = next;
     }
+
+    public Node(Person data) {
+        this.data = data;
+    }
 }
