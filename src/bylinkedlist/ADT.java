@@ -5,5 +5,7 @@ public interface ADT<E> {
 
     void remove(Person data);
 
+    Person search(String firstName);
+
 
 }
