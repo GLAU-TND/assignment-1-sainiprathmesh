@@ -8,10 +8,6 @@ public class Person {
     private ArrayList<Long> contactNumber;
     private String mailID;
 
-    public String getFirstName() {
-        return firstName;
-    }
-
     public Person(String firstName, String lastName, ArrayList<Long> contactNumber, String mailID) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -19,12 +15,20 @@ public class Person {
         this.mailID = mailID;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getFirstName() {
+        return firstName;
     }
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public ArrayList<Long> getContactNumber() {
@@ -35,16 +39,12 @@ public class Person {
         this.contactNumber = contactNumber;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public String getMailID() {
+        return mailID;
     }
 
     public void setMailID(String mailID) {
         this.mailID = mailID;
-    }
-
-    public String getMailID() {
-        return mailID;
     }
 
     @Override
