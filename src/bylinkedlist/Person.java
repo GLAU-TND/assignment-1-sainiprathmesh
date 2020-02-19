@@ -46,4 +46,14 @@ public class Person {
     public String getMailID() {
         return mailID;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", contactNumber=" + contactNumber +
+                ", mailID='" + mailID + '\'' +
+                '}';
+    }
 }
