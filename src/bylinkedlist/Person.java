@@ -12,24 +12,31 @@ public class Person {
         return firstName;
     }
 
-    public String getLastName() {
-        return lastName;
+    public Person(String firstName, String lastName, ArrayList<Long> contactNumber, String mailID) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.contactNumber = contactNumber;
+        this.mailID = mailID;
     }
 
-    public ArrayList<Long> getContactNumber() {
-        return contactNumber;
+    public String getLastName() {
+        return lastName;
     }
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public ArrayList<Long> getContactNumber() {
+        return contactNumber;
     }
 
     public void setContactNumber(ArrayList<Long> contactNumber) {
         this.contactNumber = contactNumber;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public void setMailID(String mailID) {
