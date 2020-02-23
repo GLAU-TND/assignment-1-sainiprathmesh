@@ -1,15 +1,19 @@
 package bylinkedlist;
 
 public class Node {
-    private Person data;
+    private Person value;
     private Node next;
 
-    public Person getData() {
-        return data;
+    public Node(Person value) {
+        this.value = value;
     }
 
-    public void setData(Person data) {
-        this.data = data;
+    public Person getValue() {
+        return value;
+    }
+
+    public void setValue(Person value) {
+        this.value = value;
     }
 
     public Node getNext() {
@@ -18,9 +22,5 @@ public class Node {
 
     public void setNext(Node next) {
         this.next = next;
-    }
-
-    public Node(Person data) {
-        this.data = data;
     }
 }
