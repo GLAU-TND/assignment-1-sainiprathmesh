@@ -6,13 +6,13 @@ public class Person {
     private String firstName;
     private String lastName;
     private LinkedList<String> contacts;
-    private String mailID;
+    private String email;
 
-    public Person(String firstName, String lastName, LinkedList<String> contacts, String mailID) {
+    public Person(String firstName, String lastName, LinkedList<String> contacts, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.contacts = contacts;
-        this.mailID = mailID;
+        this.email = email;
     }
 
     public String getFirstName() {
@@ -39,11 +39,11 @@ public class Person {
         this.contacts = contacts;
     }
 
-    public String getMailID() {
-        return mailID;
+    public String getEmail() {
+        return email;
     }
 
-    public void setMailID(String mailID) {
-        this.mailID = mailID;
+    public void setEmail(String email) {
+        this.email = email;
     }
 }

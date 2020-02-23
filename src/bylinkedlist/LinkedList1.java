@@ -1,6 +1,6 @@
 package bylinkedlist;
 
-public class LinkedList {
+public class LinkedList1 {
     Person person;
     private Node first;
     private Node last;
@@ -155,5 +155,6 @@ public class LinkedList {
             current = current.getNext();
         }
     }
+
 }
 
